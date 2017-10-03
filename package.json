@@ -1,0 +1,58 @@
+{
+  "name": "advocately",
+  "version": "1.0.0",
+  "description": "The hassle-free way to send your data into Advocately.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/advocately/advocately-js"
+  },
+  "keywords": [
+    "analytics",
+    "advocately",
+    "customer success",
+    "net promoter score"
+  ],
+  "author": "Advocately <team@advocate.ly>",
+  "license": "MIT",
+  "dependencies": {
+    "@ndhoule/clone": "^1.0.0",
+    "@ndhoule/defaults": "^2.0.1",
+    "@ndhoule/extend": "^2.0.0",
+    "@ndhoule/includes": "^2.0.1",
+    "@segment/canonical": "^1.0.0",
+    "@segment/isodate-traverse": "^1.1.0",
+    "@segment/store": "^1.3.20",
+    "@segment/top-domain": "^3.0.0",
+    "bind-all": "1.0.0",
+    "component-cookie": "^1.1.3",
+    "component-url": "^0.2.1",
+    "fetchival": "^0.3.2",
+    "inherits": "^2.0.3",
+    "json3": "^3.3.2",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "@segment/eslint-config": "^3.5.0",
+    "browserify": "^14.4.0",
+    "eslint": "^4.7.1",
+    "eslint-plugin-mocha": "^4.11.0",
+    "karma": "^1.7.1",
+    "karma-browserify": "^5.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-junit-reporter": "^1.2.0",
+    "karma-mocha": "^1.3.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-spec-reporter": "0.0.31",
+    "mocha": "^3.5.3",
+    "phantomjs-prebuilt": "^2.1.15",
+    "proclaim": "^3.4.6",
+    "sinon": "^3.3.0",
+    "uglify-js": "3.1.2",
+    "watchify": "^3.9.0"
+  }
+}
